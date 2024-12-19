@@ -171,7 +171,7 @@ footer{
 #projects{
     flex-wrap: wrap;
     min-height: fit-content;
-    padding: 2vh 0 2vh 0;
+    padding: 0 0 8vh 0;
 }
 .project{
     width: 30%;
@@ -180,7 +180,7 @@ footer{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2%;
+    margin-top: 3%;
 } 
 .project a:hover{
     transform: scale(1.1);
@@ -195,7 +195,7 @@ footer{
     border-radius: 10px;
 }
 .innerDiv{
-    margin-top: 5%;
+    margin-top: 2%;
     color: #ffffff;
     font-size: 3vh;
 }
