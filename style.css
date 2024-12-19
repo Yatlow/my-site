@@ -96,16 +96,19 @@ main{
 #about,#projects,#contact{
     background-color: #30352A;
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
     border-bottom: #ffffff 3px solid;
 }
-#about a{
+#about> div{
     border: #ffffff;
-    width: 50%;
+    width: 40%;
     font-size: 3vh;
     color: #ffffff;
+}
+.aboutDiv{
+    margin-top: 1vh;
 }
 footer{
     display: flex;
@@ -168,17 +171,20 @@ footer{
 #projects{
     flex-wrap: wrap;
     min-height: fit-content;
-    padding: 5vh 0 5vh 0;
+    padding: 2vh 0 2vh 0;
 }
 .project{
     width: 30%;
-    height: 65vh;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 2%;
 } 
+.project a:hover{
+    transform: scale(1.1);
+}
 .project a{
     width: 80%;
     height: 80%;
@@ -205,20 +211,14 @@ footer{
 }
 #KW1,#KW2{
     position: absolute;
-    top: 0;
-    margin-inline-start: -10vw;
-    width: 80%;
-    width: 20vw;
+    z-index: 1;
 }
 #KW1{
+    z-index: 2;
     opacity: 0;
     transition: opacity 1s;
 }
 #KWP:hover #KW1{
     opacity: 1;
-    transition: opacity 1s;
-}
-#KWP:hover #KW2{
-    opacity: 0;
     transition: opacity 1s;
 }
