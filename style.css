@@ -101,7 +101,7 @@ main{
     align-items: center;
     border-bottom: #ffffff 3px solid;
 }
-#about> div{
+.aboutDivBox{
     border: #ffffff;
     width: 40%;
     font-size: 3vh;
@@ -110,7 +110,6 @@ main{
 .aboutDiv{
     margin-top: 1vh;
 }
-/* sdfsf */
 footer{
     display: flex;
     justify-content: center;
