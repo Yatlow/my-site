@@ -215,13 +215,9 @@ footer{
     position: absolute;
     z-index: 1;
 }
-#KW1{
+.hiddenIMG{
     z-index: 2;
     opacity: 0;
-    transition: opacity 1s;
-}
-#KWP:hover #KW1{
-    opacity: 1;
     transition: opacity 1s;
 }
 @media screen and (max-width: 600px)  {

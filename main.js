@@ -6,7 +6,14 @@ document.getElementById("Hamburger").addEventListener('click',function(){
 document.getElementById("navItemsBox").addEventListener('click',function(){
     toggleNav();
 });
-
+document.getElementById("KWP").addEventListener('mouseenter',function(){
+    document.getElementById('KW1').classList.remove('hiddenIMG')
+    document.getElementById('KW2').classList.add('hiddenIMG')
+});
+document.getElementById("KWP").addEventListener('mouseleave',function(){
+    document.getElementById('KW1').classList.add('hiddenIMG')
+    document.getElementById('KW2').classList.remove('hiddenIMG')
+});
 
 function toggleNav(){
     if (nav_open){
