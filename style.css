@@ -101,7 +101,7 @@ main{
 }
 #about,#projects,#contact{
     /* background-color: #30352A; */
-    background-color: #c3b59f;
+    background-color: #e3ddd8;
     display: flex;
     min-height: 100vh;
     justify-content: center;
