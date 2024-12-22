@@ -79,7 +79,8 @@ main{
     z-index: 2;
     font-size: 8vh;
     font-weight: bold;
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,7 +102,7 @@ main{
 }
 #about,#projects,#contact{
     /* background-color: #30352A; */
-    background-color: #7c8077;
+    background-color: #dddddd;
     display: flex;
     min-height: 100vh;
     justify-content: center;
@@ -112,7 +113,8 @@ main{
     border: #ffffff;
     width: 40%;
     font-size: 3vh;
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: #000000;
 }
 .aboutDiv{
     margin-top: 1vh;
@@ -199,7 +201,8 @@ footer{
 }
 .innerDiv{
     margin-top: 2%;
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: #000000;
     font-size: 3vh;
 }
 .DIV{
