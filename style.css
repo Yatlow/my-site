@@ -79,8 +79,7 @@ main{
     z-index: 2;
     font-size: 8vh;
     font-weight: bold;
-    /* color: #ffffff; */
-    color: #000000;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,7 +101,7 @@ main{
 }
 #about,#projects,#contact{
     /* background-color: #30352A; */
-    background-color: #dddddd;
+    background-color: #c3b59f;
     display: flex;
     min-height: 100vh;
     justify-content: center;
@@ -114,7 +113,7 @@ main{
     width: 40%;
     font-size: 3vh;
     /* color: #ffffff; */
-    color: #000000;
+    color: #211200;
 }
 .aboutDiv{
     margin-top: 1vh;
@@ -176,16 +175,16 @@ footer{
 #projects{
     flex-wrap: wrap;
     min-height: fit-content;
-    padding: 0 0 8vh 0;
+    padding: 0 20% 8vh 20%;
 }
 .project{
-    width: 30%;
+    width: 50%;
     height: 55vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3%;
+    margin-top: 8%;
 } 
 .project a:hover{
     transform: scale(1.1);
@@ -202,7 +201,7 @@ footer{
 .innerDiv{
     margin-top: 2%;
     /* color: #ffffff; */
-    color: #000000;
+    color: #211200;
     font-size: 3vh;
 }
 .DIV{
