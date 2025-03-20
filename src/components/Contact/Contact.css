@@ -1,0 +1,23 @@
+.contactBox{
+    background-color: #4B4F46;
+    width: 30%;
+    height: 50vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    font-size: 3.3vh;
+    border-radius: 20px;
+}
+.Contacth1{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px)  {
+    .contactBox{
+        width: 70%;
+        font-size: 2.6vh;
+    }
+}

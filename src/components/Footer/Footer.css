@@ -1,0 +1,51 @@
+footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 85vh;
+    width: 100%;
+    z-index: 10;
+}
+
+.footerBox {
+    background-color: #E07500;
+    height: 15vh;
+    width: 24%;
+    border-radius: 25px 25px 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerImgBox {
+    cursor: pointer;
+    height: 35%;
+    position: relative;
+}
+
+.footerImg,
+.footerImgT {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    margin-inline-start: -3vh;
+}
+
+.footerImgT {
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+
+.footerImgBox:hover .footerImg {
+    opacity: 0;
+}
+
+.footerImgBox:hover .footerImgT {
+    opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .footerBox {
+        width: 80%;
+    }
+}

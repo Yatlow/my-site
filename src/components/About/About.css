@@ -1,0 +1,23 @@
+.aboutDivBox{
+    border: #ffffff;
+    width: 40%;
+    font-size: 3vh;
+    color: #211200;
+}
+.aboutDiv{
+    margin-top: 2vh;
+}
+.strong{
+    font-weight: bold;
+    margin: 3vh 0 3vh 0;
+}
+li{
+    margin: 1vh 0 0 20px;
+    font-size: 15px;
+}
+@media screen and (max-width: 600px)  {
+    .aboutDivBox{
+        width: 70%;
+        font-size: 2.2vh;
+    }
+}

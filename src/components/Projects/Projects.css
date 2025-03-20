@@ -1,0 +1,12 @@
+.projects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: fit-content;
+    gap: 8%;
+    padding: 5% 20% 8vh 20%;
+}
+@media screen and (max-width: 600px)  {
+    .projects{
+        gap: 1%;
+    }
+}

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: myfont;
+    src: url(assets/fonts/Raleway-Regular.ttf);
+}
+html *{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: myfont;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.mainBox{
+    margin-top: 10vh;
+    box-sizing: border-box;
+}
+#about,#projects,#contact{
+    background-color: #e3ddd8;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #ffffff 3px solid;
+}
+#projects{
+    padding-bottom: 45vh;
+}
+
+#about{
+    height: 120vh;
+}
+@media screen and (max-width: 600px)  {
+    #projects{
+        padding-bottom: 0;
+    }
+    
+}
+
+
+
+
