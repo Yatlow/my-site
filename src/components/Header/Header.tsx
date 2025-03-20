@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import './Header.css';
-import '../../../assets/images/Yatlow Logo.png' 
+// import myLogo from '../../../assets/images/Yatlow Logo.png';
+// import hamburger from '../../../assets/images/Hamburger.png'
+// import '../../../public/assets/images/Yatlow Logo.png'
 
 export default function Header() {
     const [navOpen, setNavOpen] = useState(false);
@@ -35,12 +37,12 @@ export default function Header() {
     return (
         <div className="header">
             <a href="#" className="LogoBox" onClick={closeMenuOnLogoClick} >
-                <img src="../../../images/Yatlow Logo.png" className="Logo" alt="Yisrael Atlow" />
+                <img src='../../../public/assets/images/Yatlow Logo.png' className="Logo" alt="Yisrael Atlow" />
                 <div>Yisrael Atlow</div>
             </a>
             <div className="hamburgerBox">
                 <img 
-                    src="../../../assets/images/Hamburger.png" 
+                    src='../../../public/assets/images/Hamburger.png'
                     onClick={toggleMenu} 
                     alt="Menu Toggle"
                 />
