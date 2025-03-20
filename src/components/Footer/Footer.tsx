@@ -1,6 +1,18 @@
 import './Footer.css';
 
 export default function Footer() {
+    function adjustFooterPosition() {
+        const footer = document.querySelector('footer');
+        const viewportHeight = window.innerHeight;
+        const footerHeight = footer.offsetHeight;
+    
+        // If the height of the footer is more than 10% of the viewport height, adjust
+        if (footerHeight > (viewportHeight * 0.1)) {
+            footer.style.bottom = '0'; // Position it at the bottom of the screen
+        } else {
+            footer.style.bottom = '0'; // If everything else fails, reset to bottom
+        }
+    }
     return (
         <footer>
             <div className="footerBox">
