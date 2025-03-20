@@ -48,7 +48,7 @@ footer {
     .footerBox {
         width: 80%;
         height: 20vh;
-        padding-bottom: 5vh;
+        margin-bottom: -10vh;
     }
     footer{
         top: 90%;
