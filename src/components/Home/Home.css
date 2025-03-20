@@ -44,6 +44,6 @@
         font-size: 4vh;
     }
     .HomeBox{
-        background-size: contain;
+        background-size: cover;
     }
 }
