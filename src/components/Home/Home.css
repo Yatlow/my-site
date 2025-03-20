@@ -9,7 +9,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../../../assets/images/Cover2.jpg');
+    background-image: url('../../../public/assets/images/Cover2.jpg');
 }
 .HomeBoxText{
     width:100%;
