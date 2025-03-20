@@ -2,7 +2,8 @@ footer {
     display: flex;
     justify-content: center;
     position: fixed;
-    top: 85vh;
+    /* top: 85vh; */
+    bottom: 0;
     width: 100%;
     z-index: 10;
 }
@@ -47,7 +48,7 @@ footer {
 @media screen and (max-width: 600px) {
     .footerBox {
         width: 80%;
-        height: 25vh;
-        top: 95vh;
+        /* height: 25vh;
+        top: 95vh; */
     }
 }
