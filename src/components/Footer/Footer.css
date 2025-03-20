@@ -45,10 +45,12 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    .footerBox {
+    /* .footerBox {
+    } */
+    footer{
         width: 80%;
         height: 10vh;
         top: 9%;
-        /* padding-bottom: 10vh; */
+
     }
 }
