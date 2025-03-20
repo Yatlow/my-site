@@ -37,12 +37,12 @@ export default function Header() {
     return (
         <div className="header">
             <a href="#" className="LogoBox" onClick={closeMenuOnLogoClick} >
-                <img src='../../../public/assets/images/Yatlow Logo.png' className="Logo" alt="Yisrael Atlow" />
+                <img src='assets/images/Yatlow Logo.png' className="Logo" alt="Yisrael Atlow" />
                 <div>Yisrael Atlow</div>
             </a>
             <div className="hamburgerBox">
                 <img 
-                    src='../../../public/assets/images/Hamburger.png'
+                    src='assets/images/Hamburger.png'
                     onClick={toggleMenu} 
                     alt="Menu Toggle"
                 />
