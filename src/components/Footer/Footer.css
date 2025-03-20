@@ -48,5 +48,6 @@ footer {
     .footerBox {
         width: 80%;
         height: 25vh;
+        top: 95vh;
     }
 }
