@@ -47,5 +47,6 @@ footer {
 @media screen and (max-width: 600px) {
     .footerBox {
         width: 80%;
+        height: 25vh;
     }
 }
