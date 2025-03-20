@@ -47,8 +47,8 @@ footer {
 @media screen and (max-width: 600px) {
     .footerBox {
         width: 80%;
-        height: 20vh;
-        margin-bottom: -10vh;
+        height: 30vh;
+        /* margin-bottom: -10vh; */
     }
     footer{
         top: 90%;
