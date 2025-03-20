@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Header.css';
+import '../../../assets/images/Yatlow Logo.png' 
 
 export default function Header() {
     const [navOpen, setNavOpen] = useState(false);
@@ -34,8 +35,7 @@ export default function Header() {
     return (
         <div className="header">
             <a href="#" className="LogoBox" onClick={closeMenuOnLogoClick} >
-                {/* <img src="assets/images/Yatlow Logo.png" className="Logo" alt="Yisrael Atlow" /> */}
-                <img src="../../assets/images/Yatlow Logo.png" className="Logo" alt="Yisrael Atlow" />
+                <img src="../../../images/Yatlow Logo.png" className="Logo" alt="Yisrael Atlow" />
                 <div>Yisrael Atlow</div>
             </a>
             <div className="hamburgerBox">
