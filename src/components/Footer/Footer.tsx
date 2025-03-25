@@ -6,7 +6,7 @@ export default function Footer() {
         <footer>
             <div className="footerBox">
                 <div className="footerImgBox">
-                    <a href="#" target="_blank">
+                    <a href="https://www.linkedin.com/in/yisrael-atlow-68b59a358/" target="_blank">
                         <img src="assets/images/linkdinT.png" className="footerImgT" />
                         <img src="assets/images/linkdin.png" className="footerImg" /></a>
                 </div>
