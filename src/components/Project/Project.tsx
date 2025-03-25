@@ -8,20 +8,23 @@ interface ProjectProps {
 }
 
 export default function Project(props: ProjectProps) {
-    const [img, setImg] = useState(props.imgSrc[0])
+    const element0=<img src={`assets/images/${props.imgSrc[0]}`}/>
+    const element1=<img src={`assets/images/${props.imgSrc[1]}`}/>
+    const [img, setImg] = useState(element0)
     function handleEnter() {
         if (props.imgSrc.length > 1) {
-            setImg(props.imgSrc[1])
+            setImg(element1)
         }
     }
     function handleLeave() {
-        setImg(props.imgSrc[0])
+        setImg(element0)
     }
 
     return (
         <div className="project">
             <a href={props.link} target="blank" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
-                <img src={`assets/images/${img}`}/>
+                {/* <img src={`assets/images/${img}`}/> */}
+                {img}
                 <div className="ProjDIV">
                     {props.caption.map(cap => (
                         <div className="innerDiv" key={cap}>{cap}</div>
