@@ -1,9 +1,6 @@
-import { useState, useEffect, Ref, RefObject } from 'react';
+import { useState, useEffect, RefObject } from 'react';
 import './Header.css';
 
-interface HeaderProps {
-
-}
 
 export default function Header(props: { Home: RefObject<HTMLElement|null>, About: RefObject<HTMLElement|null>, Projects: RefObject<HTMLElement|null>, Contact: RefObject<HTMLElement|null> }) {
     const [navOpen, setNavOpen] = useState(false);

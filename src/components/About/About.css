@@ -3,6 +3,9 @@
     width: 40%;
     font-size: 3vh;
     color: #211200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .aboutDiv{
     margin-top: 2vh;
