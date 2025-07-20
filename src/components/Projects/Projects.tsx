@@ -15,6 +15,8 @@ export default function Projects() {
                 <Project link="https://github.com/Yatlow/Keg-washer"
                     imgSrc={["kegWasherT.jpg", "kegWasher.png"]}
                     caption={["Automatic keg Washer", "Rpi based- machine", "Python & Js"]} />
+                <Project link="https://yatlow.github.io/vacations/"
+                    imgSrc={["vacations.png",]} caption={["Vacations App", "React - node.js - Sql"]} />
                 <Project link="https://yatlow.github.io/Crypto/"
                     imgSrc={["Crypto.png",]} caption={["Crypto Api", "Js - Axios & Css"]} />
                 <Project link="https://yatlow.github.io/Role-the-Dice/"
