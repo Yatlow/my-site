@@ -29,6 +29,7 @@
     width: 100%;
     border-radius: 10px;
     transition: opacity 0.5s ease-in-out, transform 0.5s ease;
+    box-shadow: #211200 2px 2px 5px;
 }
 
 
@@ -46,6 +47,28 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
+}
+.showCred{
+    text-decoration: underline;
+    color: #050047;
+}
+.credsBox{
+    box-shadow: #211200 2px 2px 5px;
+    background-color: #dbdaf1;
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    z-index: 10;    
+    position: relative;
+    top: -70%;
+    border-radius: 20px;
+}
+.closeCredsBox{
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
 }
 @media screen and (max-width: 600px)  {
     .innerDiv{

@@ -16,7 +16,7 @@ export default function Projects() {
                     imgSrc={["kegWasherT.jpg", "kegWasher.png"]}
                     caption={["Automatic keg Washer", "Rpi based- machine", "Python & Js"]} />
                 <Project link="https://yatlow.github.io/vacations/"
-                    imgSrc={["vacations.png",]} caption={["Vacations App", "React - node.js - Sql"]} />
+                    imgSrc={["vacations.png",]} caption={["Vacations App", "React - node.js - Sql","JWT auth"]} credentials={["admin@myfakeemail.com","jhonbryce2025!"]} />
                 <Project link="https://yatlow.github.io/servers/"
                     imgSrc={["servers.png",]} caption={["Servers App", "React - node.js - Sql"]} />
                 <Project link="https://yatlow.github.io/Crypto/"
