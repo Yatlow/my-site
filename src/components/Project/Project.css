@@ -61,8 +61,6 @@
     align-items: center;
     gap: 10px;
     z-index: 10;    
-    position: relative;
-    top: -70%;
     border-radius: 20px;
 }
 .closeCredsBox{
